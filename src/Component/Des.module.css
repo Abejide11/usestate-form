@@ -1,0 +1,51 @@
+.body{
+    background-color: aquamarine;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+   
+}
+.picture img{
+    height: 500px;
+    /* margin-left: 5px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.child2{
+    background-color: rgb(206, 139, 139);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.form{
+    margin-bottom: 20px;
+    
+}
+
+
+
+.profile input{
+    width: 300px;
+    padding: 1em 1em;
+border-radius: 10px;
+}
+.profile label{margin-right: 220px;
+    color: blue;
+}
+.but button{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    width: 100px;
+}
+@media screen and (max-width = "320px"){
+    .container{
+    flex-direction:column;
+    display: flex;
+    }
+}
+    
